@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Animals - A React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my second project in my journey of learning React. The application is named "Animals" and it's designed to highlight some extremely important concepts in React, such as the state system and event system.
 
-## Available Scripts
+### Project Description
 
-In the project directory, you can run:
+The "Animals" application shows a button to the user that says 'Add Animals'. When the user clicks on the button, a random single picture of an animal is added to the page. The first time, it may show a picture of a horse, the second time it may add a picture of a bird, and so on. Each click adds one animal.
 
-### `npm start`
+Next to each animal, there is a small heart icon. Anytime a user clicks on an animal, it's taken as a sign that the user likes this animal, and the little heart gets a bit larger. As the user clicks more and more, the heart keeps increasing in size.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project consists of three main JavaScript files in the `src` folder:
 
-### `npm test`
+- `index.js`: This is the entry point of the application.
+- `App.js`: This file defines the `App` component, which is the root component of the application.
+- `AnimalShow.js`: This file defines the `AnimalShow` component, which represents a single animal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies Used
 
-### `npm run build`
+- React.js
+- CSS: The styling of the application is done through CSS without using any CSS framework.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js
+- npm
 
-### `npm run eject`
+#### Installing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/nisarahmed230/react-animal-love.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install NPM packages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+3. Start the server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Analyzing the Bundle Size
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### License
 
-### Making a Progressive Web App
+Distributed under Apache License 2.0. See `LICENSE` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Contact
 
-### Advanced Configuration
+[![Twitter Follow](https://img.shields.io/twitter/follow/Nisar_243?&style=social)](https://twitter.com/intent/user?screen_name=Nisar_243 "Twitter")
+[![GitHub Followers](https://img.shields.io/github/followers/nisarahmed230?label=Follow%20Me%21&style=social&link=https://github.com/nisarahmed230 "Go to GitHub")](https://github.com/nisarahmed230)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nisar-ahmed-24303670qwea)](https://www.linkedin.com/in/nisar-ahmed-24303670qwea "Let's get into LinkedIn")
+[![Gmail](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white&link=mailto:nisarahmed3024@gmail.com)](mailto:nisarahmed3024@gmail.com "Contact Me")
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: https://github.com/nisarahmed230/react-animal-love
